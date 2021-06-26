@@ -1,0 +1,65 @@
+/*
+
+css navigation
+
+*/
+html{
+    background-image:url(C:\Users\loubn\Desktop\pourlesite\assets\img);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.top{
+
+border:solid black;
+background-color:rgb(60, 117, 223);
+margin: -8px;
+padding-bottom: 50px;
+}
+
+.navigation{
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+}
+
+.navigation a{
+text-transform: uppercase;
+font-size: s-large;
+text-decoration: none;
+padding: 5px;
+color:white;
+}
+
+.navigation a:hover{
+    text-decoration: none;
+    color:rgb(255, 0, 0);
+    transition:0.5s;
+}
+
+.navigation .active{
+    color: rgb(255, 8, 8);
+    font-weight: bold;
+}
+
+
+/* Message bienvenue */
+
+.bievenue{
+    text-align:center;
+}
+
+.bienvenue h1{
+    font-size: 45px;
+    color:white
+
+}
+.bienvenue h2{
+    color: white;
+}
+
+.bienvenue span {
+    color:rgb(255, 0, 0);
+    font-weight: bold;
+}

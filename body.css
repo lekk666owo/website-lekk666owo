@@ -1,0 +1,20 @@
+/*
+
+Css pour le body
+
+*/
+
+.presentation{
+    border-top: 5px solid rgb(216, 30,30);
+    border: black solid 4px;
+    text-align: center;
+    padding-bottom: 10px;
+    background-color: rgba(0, 0, 0 0.815);
+    padding-bottom: 20px;
+}
+.titre h1{
+    color:rgb(216, 30,30);
+    font-size: xx-large;
+    font-weight: bold;
+}
+
